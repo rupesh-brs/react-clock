@@ -1,0 +1,28 @@
+/* Center the clock using flexbox */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background-color: #f0f0f0; /* Light background for better contrast */
+  margin: 0; /* Remove default margin */
+}
+
+/* Style the clock container */
+.clock-container {
+  text-align: center;
+  /* background: white; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Increase clock size (react-clock has a 'size' prop for this) */
+.react-clock {
+  margin-top: 10px;
+}
+p{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large ;
+}
